@@ -1,59 +1,50 @@
-# Cafe-Sales-Analysis
-# ☕ Cafe Sales Analysis Dashboard
+# ☕ Cafe Sales Analysis
+
+An end-to-end data analytics project that analyzes cafe sales to find top-selling items, revenue trends and customer payment behavior, with an interactive Power BI dashboard.
+
+## 🎥 Dashboard Demo
+
+[![Watch the demo](Dashboard/screenshots/Screenshot%202026-11-12%20153819.png)](https://youtu.be/8YHPY2PA5hg)
+
+👉 [Click here to watch the demo video](https://youtu.be/8YHPY2PA5hg)
 
 ## 📌 Project Overview
-An end-to-end Cafe Sales Analysis project focused on understanding sales performance, customer purchasing patterns, product performance, and revenue trends using Python, SQL, and Power BI.
 
-## 🎯 Business Objectives
-- Analyse total revenue and transaction performance.
-- Identify best-selling products.
-- Understand customer payment preferences.
-- Compare sales across cafe locations.
-- Analyse monthly revenue and quantity trends.
-- Build an interactive business intelligence dashboard.
+The goal was to understand what sells, when it sells, and how customers pay, so the cafe can make better menu and operations decisions.
 
-## 🛠️ Tools & Technologies
-- **Python:** Data cleaning and Exploratory Data Analysis (EDA)
-- **Pandas:** Data manipulation and cleaning
-- **SQL:** Data querying and business analysis
-- **Power BI:** Interactive dashboard and visualisation
-- **DAX:** KPI calculations and measures
+## 📊 Key Metrics
 
-## 🧹 Data Cleaning
-- Handled missing values.
-- Replaced invalid entries such as ERROR and UNKNOWN.
-- Converted columns into appropriate data types.
-- Validated sales calculations using Quantity × Price Per Unit.
-- Prepared a cleaned dataset for analysis.
+| Metric | Value |
+|---|---|
+| Total Revenue | ₹84.76K |
+| Total Transactions | 10K |
+| Total Quantity Sold | 29K |
+| Average Order Value | ₹8.48 |
 
-## 📊 Key Performance Indicators
-- Total Revenue
-- Total Transactions
-- Total Quantity Sold
-- Average Order Value
+## 🔍 Key Insights
 
-## 📈 Dashboard Features
-- Monthly Revenue Trend
-- Sales by Product
-- Payment Method Analysis
-- Sales by Location
-- Monthly Quantity Sold
-- Top 5 Best-Selling Products
-- Interactive Month and Product slicers
+- **Top sellers by quantity:** Juice (3,373), Coffee (3,368), Cake (3,329), Salad (3,310) and Sandwich (3,245) are very close, so demand is evenly spread across the menu.
+- **Top earners by revenue:** Salad, Sandwich and Smoothie bring in the most revenue.
+- **Monthly trend:** January is the weakest month (about ₹4.0K). The other months stay around ₹6.3K-7.1K.
+- **Order channel:** In-store (₹26K) and takeaway (₹25K) bring in similar revenue. The largest share (₹34K) has an UNKNOWN location.
+- **Payment methods:** Digital wallet, credit card and cash each make up about 22-23% of transactions. About 32% have an UNKNOWN payment method.
 
-## 💡 Business Insights
-This project helps identify high-performing products, understand payment preferences, compare location-wise revenue, and monitor monthly sales trends to support business decisions.
+## 💡 Recommendations
+
+- Promote high-revenue items like Salad and Sandwich through combos.
+- Bundle best-selling drinks with higher-priced food to raise average order value.
+- Run offers in slower months to smooth revenue.
+- Improve data capture at the point of sale to reduce UNKNOWN values.
+
+## 🛠 Tools Used
+
+Python, SQL, Power BI
 
 ## 📁 Project Structure
-```text
-Cafe-Sales-Analysis/
-├── Dashboard/
-├── Dataset/
-├── Python/
-├── SQL/
-├── Images/
-└── README.md
-```
 
-## 👨‍💻 Author
-Data Analytics Project | Python | SQL | Power BI
+- `Dashboard/` – Power BI file, screenshots and Python work
+- `data/` – cafe sales dataset
+
+## 👤 Author
+
+**Divyesh Kamble** | [LinkedIn](divyesh-kamble-637524293)
