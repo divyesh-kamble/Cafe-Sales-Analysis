@@ -42,8 +42,13 @@ Python, SQL, Power BI
 
 ## 📁 Project Structure
 
-- `Dashboard/` – Power BI file, screenshots and Python work
-- `data/` – cafe sales dataset
+## 📁 Project Structure
+
+- `cafe_sales_cleaned.csv` – cleaned dataset
+- `Dashboard/cafesales.pbit` – Power BI dashboard template
+- `Dashboard/screenshots/` – dashboard screenshot
+- `Dashboard/SQL/cafe_sales_analysis.sql` – SQL queries
+- `Dashboard/python/cafesaleproject.py` – Python analysis
 
 ## 👤 Author
 
