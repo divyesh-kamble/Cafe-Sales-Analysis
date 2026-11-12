@@ -40,7 +40,6 @@ The goal was to understand what sells, when it sells, and how customers pay, so 
 
 Python, SQL, Power BI
 
-## 📁 Project Structure
 
 ## 📁 Project Structure
 
